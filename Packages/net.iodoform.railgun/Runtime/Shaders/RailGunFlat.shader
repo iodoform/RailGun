@@ -17,8 +17,8 @@ Shader "Custom/RailGunFlat"
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _MetallicTex("Metallic", 2D) = "white" {}
         _Metallic ("Metallic", Range(0,1)) = 0.0
-        _ShotPoint ("Shot Point", Vector) = (0,0,1,0)
-        _ShotDirection("Shot Direction", Vector) = (0,0,1,0)
+        _ShotPoint ("Shot Point", Vector) = (0,0,0,0)
+        _ShotDirection("Shot Direction", Vector) = (0,0,0,0)
         _Radius("Radius", Float) = 0.5
         _AttenuationRate("Attenuation Rate",Float) = 2
     }
