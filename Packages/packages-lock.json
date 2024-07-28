@@ -234,9 +234,7 @@
       "version": "file:net.iodoform.railgun",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {
-        "com.mimylab.fukuroudon": ""
-      }
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
