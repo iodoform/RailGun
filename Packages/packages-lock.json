@@ -235,7 +235,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.mimylab.fukuroudon": "1.23.0"
+        "com.mimylab.fukuroudon": ""
       }
     },
     "com.unity.modules.ai": {
