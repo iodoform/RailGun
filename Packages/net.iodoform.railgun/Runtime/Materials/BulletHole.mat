@@ -54,8 +54,8 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 0.97945833, b: 0.9292453, a: 1}
     - _EmissionColor: {r: 1, g: 0.19297373, b: 0, a: 1}
-    - _ShotDirection: {r: 0.851707, g: 0.5180275, b: -0.079010464, a: 0}
+    - _ShotDirection: {r: 0, g: 0, b: 0, a: 0}
     - _ShotDirection1: {r: 0.86, g: 0, b: 2.08, a: 0}
-    - _ShotPoint: {r: 1.0036912, g: 2.2885318, b: -0.22417027, a: 0}
+    - _ShotPoint: {r: 0, g: 0, b: 0, a: 0}
     - _ShotPoint1: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
