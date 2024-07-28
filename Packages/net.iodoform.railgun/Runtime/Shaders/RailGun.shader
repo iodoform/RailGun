@@ -29,7 +29,7 @@ Shader "Custom/RailGun"
         Cull Front
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf  NoLighting noambient alpha:fade
+        #pragma surface surf Standard fullforwardshadows alpha:fade
 
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
@@ -61,10 +61,6 @@ Shader "Custom/RailGun"
         {
             return float4(normalize(axis) * sin(rad * 0.5), cos(rad * 0.5));
         }
-        inline fixed4 LightingNoLighting (SurfaceOutput s, fixed3 lightDir, fixed atten)
-        {
-            return fixed4(s.Albedo, s.Alpha);
-        }
 
         float3 rotateQuaternion(float rad, float3 axis, float3 pos)
         {
@@ -72,7 +68,7 @@ Shader "Custom/RailGun"
             return (q.w*q.w - dot(q.xyz, q.xyz)) * pos + 2.0 * q.xyz * dot(q.xyz, pos) + 2 * q.w * cross(q.xyz, pos);
         }
 
-        void surf (Input IN, inout SurfaceOutput o)
+        void surf (Input IN, inout SurfaceOutputStandard o)
         {
             if (length(_ShotDirection)==0)
             {
