@@ -11,7 +11,7 @@ VRChat向けのレールガンの3Dモデルとシェーダーのセット
 ## 使用方法
 
 1. `Packages/RailGun/Runtime/Prefabs/RailGun.prefab`をシーンに配置する
-2. 打ち抜きたいオブジェクトに`CustomRailGun`/`CustomRailGunFlat`シェーダーから作成したマテリアルを適用する　(Cubeのような閉じた形状のオブジェクトには`RailGun`，Planeのような開いた形状のオブジェクトには`RailGunFlat`を使う)
+2. 打ち抜きたいオブジェクトに`Custom>RailGun`または`Custom>RailGunFlat`シェーダーから作成したマテリアルを適用する　(Cubeのような閉じた形状のオブジェクトには`RailGun`，Planeのような開いた形状のオブジェクトには`RailGunFlat`を使う)
 3. シーンに配置したレールガンのプレハブを選択し．インスペクターウィンドウからRailgunコンポーネントの`Materials`に手順2で作成したマテリアルをすべて登録する
 ![alt text](<img/スクリーンショット 2024-07-28 011501.png>)
 
